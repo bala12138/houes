@@ -1,0 +1,414 @@
+header {
+  width: 100%;
+  height: 5rem; }
+  header .header {
+    width: 100%;
+    height: 5rem;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-between; }
+    header .header .hzuo img {
+      width: 55%; }
+    header .header .hyou ul {
+      display: flex;
+      color: #CCCCCC; }
+      header .header .hyou ul li {
+        text-align: center;
+        margin-left: 1rem; }
+        header .header .hyou ul li p {
+          font-size: 2.25rem;
+          margin-bottom: 5px; }
+        header .header .hyou ul li span {
+          font-size: 1.1rem; }
+
+.box .lunbo .swiper-pagination-bullet {
+  width: 0.6rem;
+  height: 0.6rem;
+  background: #7c7c7c;
+  opacity: 1; }
+.box .lunbo .swiper-pagination-bullet-active {
+  width: 0.6rem;
+  height: 0.6rem;
+  background: #00be9c; }
+.box .daohang {
+  width: 100%;
+  border-bottom: 0.9rem solid #f4f4f4; }
+  .box .daohang ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.8rem; }
+    .box .daohang ul li {
+      width: 25%;
+      text-align: center; }
+      .box .daohang ul li div {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-bottom: 1.8rem; }
+        .box .daohang ul li div p {
+          font-size: 3.4rem;
+          color: white;
+          text-align: center;
+          line-height: 6rem; }
+      .box .daohang ul li span {
+        font-size: 1.4rem; }
+.box .quanwu {
+  width: 100%;
+  padding: 1rem;
+  padding-top: 0;
+  border-bottom: 0.9rem solid #f4f4f4; }
+  .box .quanwu .bt {
+    width: 100%;
+    height: 5.3rem;
+    display: flex;
+    justify-content: flex-start; }
+    .box .quanwu .bt .tiao {
+      width: 5px;
+      height: 2.1rem;
+      background: #00be9c;
+      margin-top: 1.6rem; }
+    .box .quanwu .bt .b1 {
+      font-size: 1.8rem;
+      line-height: 5.3rem; }
+    .box .quanwu .bt .b2 {
+      line-height: 5.3rem;
+      font-size: 1.2rem;
+      color: #999; }
+  .box .quanwu .lunbo2 .swiper-slide div {
+    width: 100%;
+    height: 3rem; }
+  .box .quanwu .lunbo2 .swiper-pagination-bullet {
+    width: 0.6rem;
+    height: 0.6rem;
+    background: #7c7c7c;
+    opacity: 1; }
+  .box .quanwu .lunbo2 .swiper-pagination-bullet-active {
+    width: 0.6rem;
+    height: 0.6rem;
+    background: #00be9c; }
+  .box .quanwu .wen ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .box .quanwu .wen ul li .iconfont {
+      font-size: 1.8rem;
+      line-height: 2rem;
+      color: #00be9c; }
+    .box .quanwu .wen ul li .s {
+      font-size: 1.4rem;
+      display: inline-block; }
+.box .yuyue {
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 0.9rem solid #f4f4f4;
+  padding-top: 0; }
+  .box .yuyue .bt {
+    width: 100%;
+    height: 5.3rem;
+    display: flex;
+    justify-content: flex-start; }
+    .box .yuyue .bt .tiao {
+      width: 5px;
+      height: 2.1rem;
+      background: #00be9c;
+      margin-top: 1.6rem; }
+    .box .yuyue .bt .b1 {
+      font-size: 1.8rem;
+      line-height: 5.3rem; }
+    .box .yuyue .bt .b2 {
+      line-height: 5.3rem;
+      font-size: 1.2rem;
+      color: #999; }
+  .box .yuyue .inp {
+    width: 29.3rem;
+    margin: 0 auto; }
+    .box .yuyue .inp p {
+      width: 100%; }
+      .box .yuyue .inp p input {
+        width: 100%;
+        height: 3.5rem;
+        padding-left: 5px;
+        border: 1px solid #f4f4f4;
+        font-size: 1.4rem;
+        margin-bottom: 1.25rem;
+        border-radius: 5px; }
+      .box .yuyue .inp p .but {
+        background: #feb605;
+        border: none;
+        color: white;
+        font-size: 1.8rem; }
+.box .shejishi {
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 0.9rem solid #f4f4f4;
+  padding-top: 0; }
+  .box .shejishi .bt {
+    width: 100%;
+    height: 5.3rem;
+    display: flex;
+    justify-content: flex-start; }
+    .box .shejishi .bt .tiao {
+      width: 5px;
+      height: 2.1rem;
+      background: #00be9c;
+      margin-top: 1.6rem; }
+    .box .shejishi .bt .b1 {
+      font-size: 1.8rem;
+      line-height: 5.3rem; }
+  .box .shejishi .ul1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.8rem; }
+    .box .shejishi .ul1 li {
+      text-align: center;
+      width: 25%; }
+      .box .shejishi .ul1 li img {
+        margin-bottom: 1.25rem; }
+      .box .shejishi .ul1 li p {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem; }
+      .box .shejishi .ul1 li span {
+        display: inline-block;
+        width: 6rem;
+        height: 1.6rem;
+        background: #00BE9C;
+        font-size: 1.2rem;
+        text-align: center;
+        color: white;
+        border-radius: 3px; }
+  .box .shejishi .ul2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .box .shejishi .ul2 li {
+      width: 50%;
+      border: 1px solid #EEEEEE;
+      text-align: center;
+      height: 3.5rem;
+      line-height: 3.5rem; }
+      .box .shejishi .ul2 li .iconfont {
+        font-size: 1.4rem;
+        color: #00BE9C; }
+      .box .shejishi .ul2 li .s {
+        font-size: 1rem;
+        color: #00BE9C; }
+.box .xiaoguotu {
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 0.9rem solid #f4f4f4;
+  padding-top: 0; }
+  .box .xiaoguotu .bt {
+    width: 100%;
+    height: 5.3rem;
+    display: flex;
+    justify-content: flex-start; }
+    .box .xiaoguotu .bt .tiao {
+      width: 5px;
+      height: 2.1rem;
+      background: #00be9c;
+      margin-top: 1.6rem; }
+    .box .xiaoguotu .bt .b1 {
+      font-size: 1.8rem;
+      line-height: 5.3rem; }
+  .box .xiaoguotu div {
+    margin-bottom: 8px; }
+  .box .xiaoguotu .ul1 {
+    width: 100%;
+    margin-bottom: 8px; }
+    .box .xiaoguotu .ul1 li {
+      width: 48.5%;
+      float: left;
+      margin-right: 8px;
+      margin-bottom: 8px; }
+  .box .xiaoguotu .ul2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .box .xiaoguotu .ul2 li {
+      width: 50%;
+      border: 1px solid #EEEEEE;
+      text-align: center;
+      height: 3.5rem;
+      line-height: 3.5rem; }
+      .box .xiaoguotu .ul2 li .iconfont {
+        font-size: 1.4rem;
+        color: #00BE9C; }
+      .box .xiaoguotu .ul2 li .s {
+        font-size: 1rem;
+        color: #00BE9C; }
+.box .zhibo {
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 0.9rem solid #f4f4f4;
+  padding-top: 0; }
+  .box .zhibo .bt {
+    width: 100%;
+    height: 5.3rem;
+    display: flex;
+    justify-content: flex-start; }
+    .box .zhibo .bt .tiao {
+      width: 5px;
+      height: 2.1rem;
+      background: #00be9c;
+      margin-top: 1.6rem; }
+    .box .zhibo .bt .b1 {
+      font-size: 1.8rem;
+      line-height: 5.3rem; }
+  .box .zhibo .zi {
+    margin-top: 1.2rem;
+    margin-bottom: 1.6rem;
+    padding-left: 5px; }
+    .box .zhibo .zi .s1 {
+      font-size: 1.4rem; }
+    .box .zhibo .zi .s2 {
+      font-size: 1rem;
+      display: inline-block;
+      background: #00BE9C;
+      color: white;
+      border-radius: 3px; }
+  .box .zhibo .ul2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .box .zhibo .ul2 li {
+      width: 50%;
+      border: 1px solid #EEEEEE;
+      text-align: center;
+      height: 3.5rem;
+      line-height: 3.5rem; }
+      .box .zhibo .ul2 li .iconfont {
+        font-size: 1.4rem;
+        color: #00BE9C; }
+      .box .zhibo .ul2 li .s {
+        font-size: 1rem;
+        color: #00BE9C; }
+.box .wenzhang {
+  padding: 1.8rem 1rem;
+  border-bottom: 0.9rem solid #f4f4f4;
+  font-size: 1.4rem; }
+.box .tel {
+  padding: 1rem;
+  display: flex;
+  justify-content: center; }
+  .box .tel p:nth-of-type(1) {
+    font-size: 1.6rem;
+    color: #00BE9C;
+    margin-top: 3px; }
+  .box .tel p:nth-of-type(2) {
+    font-size: 1.4rem;
+    color: #333; }
+.box .foo {
+  width: 100%; }
+  .box .foo ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .box .foo ul li {
+      width: 25%;
+      text-align: center;
+      font-size: 1.4rem; }
+  .box .foo .active {
+    color: #00BE9C; }
+
+.gonglue {
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 0.9rem solid #f4f4f4;
+  padding-top: 0; }
+  .gonglue .bt {
+    width: 100%;
+    height: 5.3rem;
+    display: flex;
+    justify-content: flex-start; }
+    .gonglue .bt .tiao {
+      width: 5px;
+      height: 2.1rem;
+      background: #00be9c;
+      margin-top: 1.6rem; }
+    .gonglue .bt .b1 {
+      font-size: 1.8rem;
+      line-height: 5.3rem; }
+  .gonglue .ul1 {
+    width: 100%; }
+    .gonglue .ul1 li {
+      width: 100%;
+      display: flex;
+      padding: 1.6rem 0;
+      border-top: 1px solid #EEEEEE; }
+      .gonglue .ul1 li .xzuo {
+        margin-right: 1.1rem; }
+      .gonglue .ul1 li .xyou p {
+        font-size: 1.8rem; }
+      .gonglue .ul1 li .xyou span {
+        font-size: 1.4rem; }
+  .gonglue .ul2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .gonglue .ul2 li {
+      width: 50%;
+      border: 1px solid #EEEEEE;
+      text-align: center;
+      height: 3.5rem;
+      line-height: 3.5rem; }
+      .gonglue .ul2 li .iconfont {
+        font-size: 1.4rem;
+        color: #00BE9C; }
+      .gonglue .ul2 li .s {
+        font-size: 1rem;
+        color: #00BE9C; }
+
+.icon-top {
+  position: fixed;
+  z-index: 15;
+  width: 5rem;
+  height: 5rem;
+  font-size: 40px;
+  text-align: center;
+  line-height: 5rem;
+  border-radius: 50%;
+  border: 1px solid #dedede;
+  color: #9c9c9c;
+  right: 2%;
+  background: white;
+  bottom: 15%; }
+
+footer {
+  height: 5.3rem; }
+  footer .footer {
+    height: 5.3rem; }
+    footer .footer ul {
+      height: 5.3rem;
+      display: flex;
+      justify-content: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      z-index: 15;
+      background: rgba(0, 0, 0, 0.8);
+      width: 100%; }
+      footer .footer ul li img {
+        width: 68%; }
+      footer .footer ul li i {
+        font-size: 1.6rem;
+        text-align: center; }
+      footer .footer ul li button {
+        width: 8.75rem;
+        height: 2.5rem;
+        border: none;
+        color: white;
+        background: #FEB605;
+        border-radius: 25px;
+        margin-top: 1.2rem;
+        margin-left: 0.5rem;
+        font-size: 1.2rem; }
+      footer .footer ul .xx {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 5%; }
+
+/*# sourceMappingURL=shouye.css.map */

@@ -1,0 +1,223 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "微软雅黑"; }
+
+li {
+  list-style: none; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none; }
+
+html,
+body {
+  background: #F4F4F4; }
+
+.clearFix {
+  clear: both; }
+
+header {
+  width: 100%;
+  height: 1rem; }
+  header .header {
+    width: 100%;
+    height: 1rem;
+    background: white;
+    padding: 0.16rem 0.18rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0; }
+    header .header .bt {
+      font-size: 0.36rem;
+      text-align: center;
+      line-height: 0.68rem;
+      margin-left: -0.8rem; }
+    header .header .hyou ul {
+      display: flex;
+      color: #CCCCCC; }
+      header .header .hyou ul li {
+        text-align: center; }
+        header .header .hyou ul li .iconfont {
+          font-size: 0.45rem;
+          margin-bottom: 5px; }
+        header .header .hyou ul li .zi {
+          font-size: 0.22rem; }
+
+.dh {
+  width: 100%;
+  height: 1rem;
+  border-top: 1px solid #EEEEEE; }
+  .dh ul {
+    width: 100%;
+    height: 1rem;
+    display: flex; }
+    .dh ul li {
+      width: 25%;
+      text-align: center;
+      height: 1rem;
+      background: white;
+      display: flex;
+      justify-content: center;
+      line-height: 1rem;
+      border-left: 1px solid #f4f4f4; }
+      .dh ul li p {
+        text-align: center; }
+        .dh ul li p:nth-of-type(1) {
+          font-size: 0.36rem; }
+        .dh ul li p:nth-of-type(2) {
+          font-size: 0.25rem;
+          color: #999999; }
+
+.box {
+  width: 100%;
+  padding: 0.19rem; }
+  .box .neirong .ul1 {
+    width: 100%; }
+    .box .neirong .ul1 li {
+      width: 3.5rem;
+      float: left;
+      background: white;
+      margin-right: 0.12rem;
+      margin-bottom: 0.12rem;
+      text-align: center; }
+      .box .neirong .ul1 li img {
+        width: 3.5rem;
+        height: 2.35rem; }
+      .box .neirong .ul1 li .p1 {
+        font-size: 0.36rem;
+        margin-top: 0.25rem;
+        margin-bottom: 0.2rem; }
+      .box .neirong .ul1 li .p2 {
+        margin-bottom: 0.25rem;
+        font-size: 0.20rem;
+        color: #999999; }
+  .box .neirong .ul2 {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .box .neirong .ul2 li {
+      width: 33.3333%; }
+      .box .neirong .ul2 li button {
+        height: 0.82rem;
+        width: 100%;
+        border: none;
+        color: white;
+        font-size: 0.36rem;
+        background: #39C893; }
+      .box .neirong .ul2 li div {
+        height: 0.82rem;
+        width: 100%;
+        border: 1px solid #EEEEEE;
+        text-align: center;
+        line-height: 0.82rem;
+        font-size: 0.3rem; }
+  .box .neirong div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.24rem;
+    margin-bottom: 0.36rem; }
+    .box .neirong div button {
+      height: 0.82rem;
+      width: 100%;
+      border: 1px solid #EEEEEE;
+      color: white;
+      font-size: 0.36rem;
+      background: #39C893; }
+    .box .neirong div .fen {
+      height: 0.82rem;
+      background: white;
+      width: 100%;
+      border: 1px solid #EEEEEE;
+      text-align: center;
+      line-height: 0.82rem;
+      font-size: 0.3rem; }
+
+.wenzhang {
+  padding: 0.36rem 0.16rem;
+  margin-bottom: 0.2rem;
+  font-size: 0.28rem;
+  background: white; }
+
+.tel {
+  background: white;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: center; }
+  .tel p:nth-of-type(1) {
+    font-size: 0.32rem;
+    color: #00BE9C;
+    margin-top: 0.05rem; }
+  .tel p:nth-of-type(2) {
+    font-size: 0.28rem;
+    color: #333; }
+
+.foo {
+  background: white;
+  width: 100%; }
+  .foo ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .foo ul li {
+      width: 25%;
+      text-align: center;
+      font-size: 0.28rem; }
+  .foo .active {
+    color: #00BE9C; }
+
+footer {
+  height: 1.06rem; }
+  footer .footer {
+    height: 1.06rem;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%; }
+    footer .footer i {
+      margin-top: 0.1rem; }
+      footer .footer i p {
+        font-size: 0.32rem; }
+    footer .footer button {
+      width: 1.75rem;
+      height: 0.5rem;
+      border: none;
+      color: white;
+      background: #FEB605;
+      border-radius: 0.25rem;
+      margin-top: 0.24rem;
+      margin-left: 0.2rem;
+      font-size: 0.24rem; }
+    footer .footer .xx {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 8%; }
+
+.icon-top {
+  position: fixed;
+  z-index: 15;
+  width: 1rem;
+  height: 1rem;
+  font-size: 0.4rem;
+  text-align: center;
+  line-height: 1rem;
+  border-radius: 50%;
+  border: 1px solid #dedede;
+  color: #9c9c9c;
+  right: 2%;
+  background: white;
+  bottom: 15%; }
+
+/*# sourceMappingURL=index.css.map */

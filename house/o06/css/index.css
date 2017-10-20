@@ -1,0 +1,113 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "微软雅黑"; }
+
+li {
+  list-style: none; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none; }
+
+html,
+body {
+  background: #F4F4F4; }
+
+.clearFix {
+  clear: both; }
+
+header {
+  width: 100%;
+  height: 1rem; }
+  header .header {
+    width: 100%;
+    height: 1rem;
+    background: white;
+    padding: 0.16rem 0.18rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0; }
+    header .header .hyou ul {
+      display: flex;
+      color: #CCCCCC; }
+      header .header .hyou ul li {
+        text-align: center; }
+        header .header .hyou ul li .iconfont {
+          font-size: 0.45rem;
+          margin-bottom: 5px; }
+        header .header .hyou ul li .zi {
+          font-size: 0.22rem; }
+
+.wenzhang {
+  padding: 0.36rem 0.16rem;
+  margin-bottom: 0.2rem;
+  font-size: 0.28rem;
+  background: white; }
+
+.tel {
+  background: white;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: center; }
+  .tel p:nth-of-type(1) {
+    font-size: 0.32rem;
+    color: #00BE9C;
+    margin-top: 0.05rem; }
+  .tel p:nth-of-type(2) {
+    font-size: 0.28rem;
+    color: #333; }
+
+.foo {
+  background: white;
+  width: 100%; }
+  .foo ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .foo ul li {
+      width: 25%;
+      text-align: center;
+      font-size: 0.28rem; }
+  .foo .active {
+    color: #00BE9C; }
+
+footer {
+  height: 1.06rem; }
+  footer .footer {
+    height: 1.06rem;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%; }
+    footer .footer i {
+      margin-top: 0.1rem; }
+      footer .footer i p {
+        font-size: 0.32rem; }
+    footer .footer button {
+      width: 1.75rem;
+      height: 0.5rem;
+      border: none;
+      color: white;
+      background: #FEB605;
+      border-radius: 0.25rem;
+      margin-top: 0.24rem;
+      margin-left: 0.2rem;
+      font-size: 0.24rem; }
+    footer .footer .xx {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 8%; }
+
+/*# sourceMappingURL=index.css.map */

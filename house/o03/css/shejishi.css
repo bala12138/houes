@@ -1,0 +1,185 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "微软雅黑"; }
+
+li {
+  list-style: none; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none; }
+
+.clearFix {
+  clear: both; }
+
+header {
+  width: 100%;
+  height: 1rem; }
+  header .header {
+    width: 100%;
+    height: 1rem;
+    background: white;
+    padding: 0.16rem 0.18rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0; }
+    header .header img {
+      width: 30%; }
+    header .header .hyou ul {
+      display: flex;
+      color: #CCCCCC; }
+      header .header .hyou ul li {
+        text-align: center;
+        margin-top: -0.07rem; }
+        header .header .hyou ul li .iconfont {
+          font-size: 0.45rem;
+          margin-bottom: 3px; }
+        header .header .hyou ul li .zi {
+          font-size: 0.22rem; }
+
+.box {
+  width: 100%;
+  padding: 0 0.17rem;
+  border-bottom: 0.18rem solid #F4F4F4; }
+  .box .js {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0.4rem; }
+    .box .js .jzuo {
+      margin-right: 0.25rem; }
+    .box .js .jyou .name {
+      font-size: 0.36rem;
+      margin-bottom: 0.2rem;
+      margin-top: 5px; }
+      .box .js .jyou .name span {
+        display: inline-block;
+        border-radius: 3px;
+        width: 0.66rem;
+        height: 0.36rem;
+        color: white;
+        text-align: center;
+        background: #3AC893;
+        font-size: 0.1rem; }
+    .box .js .jyou div {
+      font-size: 0.31rem;
+      margin-bottom: 0.15rem; }
+      .box .js .jyou div span {
+        font-size: 0.28rem;
+        color: #b0b0b0; }
+  .box ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem; }
+    .box ul li {
+      text-align: center;
+      padding: 0 0.4rem; }
+      .box ul li div {
+        width: 1.04rem;
+        height: 1.04rem;
+        border: 0.05rem solid #fe8c65;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 0.95rem;
+        margin-bottom: 0.25rem;
+        font-size: 0.48rem;
+        color: #FE8C65;
+        font-weight: bold; }
+      .box ul li p {
+        font-size: 0.28rem;
+        color: #fe8c65; }
+  .box .jianjie {
+    font-size: 0.31rem;
+    margin-bottom: 0.15rem; }
+    .box .jianjie span {
+      font-size: 0.28rem;
+      color: #b0b0b0; }
+
+.zuopin {
+  width: 100%;
+  padding: 0.16rem;
+  padding-top: 0;
+  border-bottom: 0.18rem solid #f4f4f4; }
+  .zuopin .bt {
+    width: 100%;
+    height: 1.06rem;
+    display: flex;
+    justify-content: flex-start; }
+    .zuopin .bt .tiao {
+      width: 5px;
+      height: 0.42rem;
+      background: #00be9c;
+      margin-top: 0.32rem; }
+    .zuopin .bt .b1 {
+      font-size: 0.36rem;
+      line-height: 1.06rem;
+      margin-left: -0.9rem; }
+  .zuopin .ul1 {
+    width: 100%; }
+    .zuopin .ul1 li {
+      width: 3.5rem;
+      float: left;
+      background: white;
+      margin-right: 0.12rem;
+      margin-bottom: 0.12rem;
+      text-align: center;
+      border: 1px solid #EEEEEE; }
+      .zuopin .ul1 li img {
+        width: 3.5rem;
+        height: 2.35rem; }
+      .zuopin .ul1 li .p1 {
+        font-size: 0.36rem;
+        margin-top: 0.25rem;
+        margin-bottom: 0.2rem; }
+      .zuopin .ul1 li .p2 {
+        margin-bottom: 0.25rem;
+        font-size: 0.20rem;
+        color: #999999; }
+
+.wenzhang {
+  padding: 0.36rem 0.16rem;
+  margin-bottom: 0.2rem;
+  border-bottom: 0.18rem solid #F4F4F4;
+  font-size: 0.29rem;
+  background: white; }
+
+.tel {
+  background: white;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: center; }
+  .tel p:nth-of-type(1) {
+    font-size: 0.32rem;
+    color: #00BE9C;
+    margin-top: 0.05rem; }
+  .tel p:nth-of-type(2) {
+    font-size: 0.28rem;
+    color: #333; }
+
+.foo {
+  background: white;
+  border-bottom: 1px solid #EEEEEE;
+  width: 100%; }
+  .foo ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .foo ul li {
+      height: 1rem;
+      width: 25%;
+      text-align: center;
+      font-size: 0.28rem;
+      line-height: 1rem; }
+  .foo .active {
+    color: #00BE9C; }
+
+/*# sourceMappingURL=shejishi.css.map */

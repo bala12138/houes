@@ -1,0 +1,166 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "微软雅黑"; }
+
+li {
+  list-style: none; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none; }
+
+.clearFix {
+  clear: both; }
+
+header {
+  width: 100%;
+  height: 1rem; }
+  header .header {
+    width: 100%;
+    height: 1rem;
+    background: white;
+    padding: 0.16rem 0.18rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0; }
+    header .header img {
+      width: 30%; }
+    header .header .bt {
+      font-size: 0.36rem;
+      text-align: center;
+      line-height: 0.68rem;
+      margin-left: -0.8rem; }
+    header .header .hyou ul {
+      display: flex;
+      color: #CCCCCC; }
+      header .header .hyou ul li {
+        text-align: center;
+        margin-top: -0.07rem; }
+        header .header .hyou ul li .iconfont {
+          font-size: 0.45rem;
+          margin-bottom: 3px; }
+        header .header .hyou ul li .zi {
+          font-size: 0.22rem; }
+
+.dh {
+  width: 100%;
+  height: 1rem;
+  border-top: 1px solid #ccc; }
+  .dh ul {
+    width: 100%;
+    height: 1rem;
+    display: flex; }
+    .dh ul li {
+      width: 25%;
+      text-align: center;
+      height: 1rem;
+      border-bottom: 1px solid #ccc;
+      background: white;
+      display: flex;
+      justify-content: center;
+      line-height: 1rem;
+      border-left: 1px solid #f4f4f4; }
+      .dh ul li p {
+        text-align: center; }
+        .dh ul li p:nth-of-type(1) {
+          font-size: 18px; }
+        .dh ul li p:nth-of-type(2) {
+          font-size: 0.25rem;
+          color: #999999; }
+
+.box {
+  width: 100%;
+  padding: 0 0.17rem;
+  border-bottom: 0.18rem solid #F4F4F4; }
+  .box ul {
+    width: 100%; }
+    .box ul li {
+      display: flex;
+      justify-content: flex-start;
+      border-bottom: 1px solid #EEEEEE;
+      padding: 0.35rem 0;
+      background: white; }
+      .box ul li .bzuo {
+        margin-right: 0.25rem; }
+        .box ul li .bzuo img {
+          width: 2.8rem;
+          height: 1.95rem; }
+      .box ul li .byou .p1 {
+        font-size: 18px;
+        margin-bottom: 0.4rem; }
+      .box ul li .byou .p2 {
+        font-size: 10px;
+        width: 1.12rem;
+        height: 0.32rem;
+        background: #3BC994;
+        border-radius: 4px;
+        text-align: center;
+        line-height: 0.32rem;
+        margin-bottom: 0.4rem;
+        color: white; }
+      .box ul li .byou .p3 {
+        font-size: 12px;
+        color: #999; }
+        .box ul li .byou .p3 span {
+          font-size: 0.1rem; }
+  .box .but {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.35rem;
+    margin-bottom: 0.35rem; }
+    .box .but button {
+      height: 0.82rem;
+      width: 100%;
+      border: 1px solid #EEEEEE;
+      color: white;
+      font-size: 0.36rem;
+      background: #39C893; }
+    .box .but .fen {
+      height: 0.82rem;
+      background: white;
+      width: 100%;
+      border: 1px solid #EEEEEE;
+      text-align: center;
+      line-height: 0.82rem;
+      font-size: 0.3rem; }
+
+.tel {
+  background: white;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: center; }
+  .tel p:nth-of-type(1) {
+    font-size: 0.32rem;
+    color: #00BE9C;
+    margin-top: 0.05rem; }
+  .tel p:nth-of-type(2) {
+    font-size: 0.28rem;
+    color: #333; }
+
+.foo {
+  background: white;
+  border-bottom: 1px solid #EEEEEE;
+  width: 100%; }
+  .foo ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .foo ul li {
+      height: 1rem;
+      width: 25%;
+      text-align: center;
+      font-size: 0.28rem;
+      line-height: 1rem; }
+  .foo .active {
+    color: #00BE9C; }
+
+/*# sourceMappingURL=zhibo.css.map */
